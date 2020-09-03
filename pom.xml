@@ -25,6 +25,12 @@
   </parent>
 
   <dependencies>
+    <!-- https://mvnrepository.com/artifact/com.twilio.sdk/twilio -->
+    <dependency>
+      <groupId>com.twilio.sdk</groupId>
+      <artifactId>twilio</artifactId>
+      <version>7.55.1</version>
+    </dependency>
     <!-- https://mvnrepository.com/artifact/org.springframework.kafka/spring-kafka -->
     <dependency>
       <groupId>org.springframework.kafka</groupId>
