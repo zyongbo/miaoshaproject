@@ -25,6 +25,11 @@
   </parent>
 
   <dependencies>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-test</artifactId>
+      <scope>test</scope>
+    </dependency>
     <!-- https://mvnrepository.com/artifact/com.twilio.sdk/twilio -->
     <dependency>
       <groupId>com.twilio.sdk</groupId>
